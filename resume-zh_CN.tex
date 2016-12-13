@@ -11,42 +11,47 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{你的大名}
+\name{龚辰}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
- 
+  \email{gongchen@bit.edu.cn} \textperiodcentered\
+  \phone{(+86) 156-5296-7528} \textperiodcentered\
+  \linkedin[gong-chen]{https://cn.linkedin.com/in/gong-chen}}
+
 \section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{上海交通大学}, 上海}{2013 -- 至今}
-\textit{在读硕士研究生}\ 信息与通信工程, 预计 2016 年 3 月毕业
-\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2009 -- 2013}
-\textit{学士}\ 通信工程
+\datedsubsection{\textbf{专用处理器研究所，北京理工大学}, 北京}{2012 -- 至今}
+\textit{博士研究生}\ 电子科学与技术, 预计 2018 年 7 月毕业
 
-\section{\faUsers\ 实习/项目经历}
-\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
-\role{实习}{经理: 高富帅}
-xxx后端开发
+\textit{保研}\ 硕博连读期间导师：刘大可（“千人计划”，专用处理器领域的国家特聘专家）
+\datedsubsection{\textbf{大连理工大学}, 辽宁-大连}{2008 -- 2012}
+\textit{学士}\ 电子科学与技术，\textit{辅修}\ 计算机科学与技术，\textit{创新实践}\ 机电创新实践基地-智能车研究室
+
+\section{\faUsers\ 项目经历}
+\datedsubsection{\textbf{微小尺寸体内植入式医疗微系统}}{2015 年1 月 -- 至今}
+\role{国家重大科研仪器研制专项}{核心研究人员}
+\textbf{项目描述：}设计一个植入眼内的微系统，用于难治性青光眼治疗（青光眼是一种由于眼内房水液压过高而致盲的难治性眼病）。该系统基于无线信能同传、微传感器和微泵，实现眼内压自动检测和调控。
+
+\textbf{本人职责：}负责\underline{体内外通信系统}及\underline{体内微控制处理器}的设计、优化与实现。主要解决超低耦合下的可靠近场通信，体内超低功耗接收机设计等植入式医疗设备研制的共性问题。
 \begin{itemize}
-  \item 实现了 xxx 特性
-  \item 后台资源占用率减少8\%
-  \item xxx
+  \item 提出了一种寄生在无线供能上的高可靠近场通信方案
+  \item 提出了一种体内超低开销BPSK解调器
+  \item 提出了一种无晶振高精度的时钟源（全数字锁频环，模数混合设计）
+  \item 设计了体内微控制处理器，编写指令集文档，时钟精确的模拟器实现，以及完成模拟器和指令集的一致性测试和拐点测试。
 \end{itemize}
 
-\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
-\role{Golang, Linux}{个人项目，和富帅糕合作开发}
-\begin{onehalfspacing}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
+\datedsubsection{\textbf{SIMD并行存储访问无冲突优化工具}}{2014 年6 月 -- 2015年5月}
+\role{国家863重大专项子课题}{核心研究人员}
+为高灵活度前向纠错处理器设计的SIMD指令并行存储访问无冲突优化工具。该处理器是基于多片ScratchPad Memory的SIMD架构的处理器，需要解决并行化LDPC和Turbo纠错算法做交织操作时遇到的存储访问冲突的问题。
+%\begin{onehalfspacing}
 \begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
+  \item 使用无向连接图对并行存储数据相关性建模
+  \item 提出内存平衡式的最大度启发式图染色算法（Balanced DSATUR Coloring Algorithm）
+  \item 可在片下（编译时）得到可预测性算法的数据安排表（Data Allocation Table）和并行访存的寻址表和交织表（Addressing Table, Permutation Table）
 \end{itemize}
-\end{onehalfspacing}
+%\end{onehalfspacing}
 
-\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
-\role{\LaTeX, Python}{个人项目}
+\datedsubsection{\textbf{专用处理器加速自动扩展工具}}{2012 年11 月 -- 2014年5月}
+\role{实验室自研项目}{核心研究人员}
 \begin{onehalfspacing}
 优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
 \begin{itemize}
