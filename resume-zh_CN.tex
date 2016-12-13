@@ -52,14 +52,31 @@
 
 \datedsubsection{\textbf{专用处理器加速自动扩展工具}}{2012 年11 月 -- 2014年5月}
 \role{实验室自研项目}{核心研究人员}
-\begin{onehalfspacing}
-优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+%\begin{onehalfspacing}
+基于LLVM做了对特定应用域ASIP的自动指令集扩展，当时主要基于LLVM 中间表示的优化过程，通过自定义的pass，对testbench做静态和动态的程序分析，得到热点kernel的数据流图从而给出加速指令的扩展建议。这个工作是我们实验室专用处理器高层次综合工具NoGap的一个子课题。
 \begin{itemize}
-  \item 容易定制和扩展
-  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
-  \item 支持 FontAwesome 4.5.0
+  \item 熟悉了Linux开发环境和项目管理，Bash Shell, Make, CMake.
+  \item 学习了编译原理和LLVM基本知识。
+  \item 实践了程序静态分析和动态分析。
 \end{itemize}
-\end{onehalfspacing}
+%\end{onehalfspacing}
+
+\datedsubsection{\textbf{高能效SIMD处理器设计}}{2014 年3 月 -- 2014 年11 月}
+\role{实验室自研项目}{主要研究人员}
+%\begin{onehalfspacing}
+\textbf{项目描述：}设计一个面向未来基带、多媒体和3D游戏等基于确定性算法应用的高能效处理器。处理器利用并行数据通路和具有多种模式的寻址单元进行高效的并行计算，其主要特性包括：
+\begin{itemize}
+  \item 8路并行的定点SIMD 数据通路，可在一个时钟内完成8个实数乘加操作或者4个复数乘加操作。
+  \item 片上数据便笺存储器可分为8个块，依靠数据交织完成无冲突存取。
+  \item 具有SIMD、操作融合、魔术指令三种类型的加速指令。
+\end{itemize}
+
+\textbf{本人职责：}负责DCT扩展指令设计、SIMD数据
+\begin{itemize}
+  \item 熟悉了Linux开发环境和项目管理，Bash Shell, Make, CMake.
+  \item 学习了编译原理和LLVM基本知识。
+  \item 实践了程序静态分析和动态分析。
+\end{itemize}
 
 % Reference Test
 %\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
